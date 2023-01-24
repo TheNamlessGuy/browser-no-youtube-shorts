@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "No YouTube Shorts",
+  "version": "1.0",
+  "description": "Redirects you to the regular video (/watch?v=...) when you open a youtube short (/shorts/...)",
+  "author": "TheNamlessGuy",
+  "developer": {
+    "name": "TheNamlessGuy",
+    "url": "https://github.com/TheNamlessGuy/no-youtube-shorts"
+  },
+  "homepage_url": "https://github.com/TheNamlessGuy/no-youtube-shorts",
+
+  "icons": {
+    "16": "res/icons/nyts/16.png",
+    "19": "res/icons/nyts/19.png",
+    "32": "res/icons/nyts/32.png",
+    "38": "res/icons/nyts/38.png",
+    "48": "res/icons/nyts/48.png"
+  },
+
+  "permissions": [
+    "*://www.youtube.com/shorts/*",
+    "*://youtube.com/shorts/*"
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
