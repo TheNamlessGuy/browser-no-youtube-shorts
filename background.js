@@ -1,6 +1,5 @@
 function onTabUpdate(tabID, changeInfo, tabInfo) {
   if (changeInfo.url == null) { return; }
-  console.log('onTabUpdate', tabID, changeInfo, tabInfo);
 
   const url = new URL(changeInfo.url);
   let id = url.pathname;

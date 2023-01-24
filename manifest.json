@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "No YouTube Shorts",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Redirects you to the regular video (/watch?v=...) when you open a youtube short (/shorts/...)",
   "author": "TheNamlessGuy",
   "developer": {
