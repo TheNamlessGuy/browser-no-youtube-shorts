@@ -6,7 +6,7 @@ function onTabUpdate(tabID, changeInfo, tabInfo) {
   if (!id.startsWith('/shorts/')) { return; }
   id = id.substring(8); // 8 === '/shorts/'.length
 
-  browser.tabs.update(tabID, {url: `${url.protocol}//${url.hostname}/watch?v=${id}`});
+  browser.tabs.update(tabID, {loadReplace: true, url: `${url.protocol}//${url.hostname}/watch?v=${id}`});
 }
 
 async function main() {
