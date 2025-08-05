@@ -8,3 +8,6 @@ Just press the "Download" button, then drag and drop the .xpi file into your fir
 
 ## Download from addons.mozilla
 [Here](https://addons.mozilla.org/firefox/addon/namless-no-youtube-shorts/)
+
+## Cross-hosted
+This repository is hosted both on [GitHub](https://github.com/TheNamlessGuy/browser-no-youtube-shorts) and [Codeberg](https://codeberg.org/TheNamlessGuy/browser-no-youtube-shorts).
